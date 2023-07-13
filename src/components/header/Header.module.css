@@ -1,0 +1,23 @@
+header {
+    padding: 50px 0px;
+    overflow: hidden;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.headertxt {
+    font-size: 195px;
+    font-weight: 900;
+    -webkit-text-stroke: 1px black;
+    color: white;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+}
+
+.headertxtstrong {
+    font-size: 195px;
+    font-weight: 900;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+}

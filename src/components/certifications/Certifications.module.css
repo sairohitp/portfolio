@@ -1,0 +1,86 @@
+#parentsection {
+    padding: 100px 0px 40px 0px;
+    border-bottom: 1px solid #e6e6e6;
+    display: flex;
+    align-items: center;
+  }
+  
+  #sectiontitle {
+    transform: rotate(-90deg);
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 50px;
+    position: absolute;
+    right: 1025px;
+    top: 40%;
+  }
+
+.sectionbody {
+    margin: 0px auto;
+    position: relative;
+}
+
+.subsectionbody {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+}
+
+.plainskillrow {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.plainskillrow>div {
+    padding: 5px 10px;
+    border-radius: 100px;
+    border: 0.2px solid rgba(0, 0, 0, 0.50);
+    background: #F4F4F4;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    width: 500px;
+}
+
+.card>img {
+    width: 500px;
+    height: 370px;
+    border-radius: 10px;
+    border: 0.2px solid rgba(0, 0, 0, 0.50);
+    background: #F4F4F4;
+    object-fit: cover;
+}
+
+.card>h5, .card>div>div:first-child>h5 {
+    font-weight: 600;
+}
+
+.certficaionSubtitle {
+    display: flex;
+justify-content: space-between;
+align-items: flex-start;
+align-self: stretch;
+}
+
+#projectgrid {
+    display: inline-grid;
+    row-gap: 80px;
+
+    width: 1080px;
+    grid-template-columns: repeat(2, auto);
+
+    justify-content: space-between;
+}
+
+.pagiation {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}

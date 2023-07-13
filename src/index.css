@@ -11,3 +11,90 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+html {
+  width: 100vw;
+}
+
+* {
+  font-family: 'Inter', sans-serif;
+  line-height: 1;
+}
+
+.subbody {
+  margin: 0px auto;
+  width: 1080px;
+}
+
+h1 {
+  margin: 0px;
+}
+
+h3 {
+  font-size: 18px;
+  margin: 0px;
+}
+
+h4 {
+  margin: 0px;
+}
+
+h5 {
+  font-size: 14px;
+  margin: 0px;
+  font-weight: normal;
+}
+
+h6 {
+  font-size: 12px;
+  line-height: 1;
+  font-weight: normal;
+  margin: 0px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.material-symbols-outlined {
+  font-size: 14px;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.filled {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.unfilled {
+  background-color: #E0E0E0;
+  border-radius: 50%;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 0,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+hr {
+  height: 1px;
+  background-color: #e6e6e6;
+  border: none;
+  width: 100%;
+  margin: 10px 0px;
+}

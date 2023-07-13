@@ -1,0 +1,101 @@
+#parentsection {
+    padding: 100px 0px 50px 0px;
+    border-bottom: 1px solid #e6e6e6;
+    display: flex;
+    align-items: center;
+  }
+  
+  #sectiontitle {
+    transform: rotate(-90deg);
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 50px;
+    position: absolute;
+    right: 1105px;
+    top: 43%;
+  }
+
+.sectionbody {
+    margin: 0px auto;
+    position: relative;
+}
+
+.subsectionbody {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    width: 1080px;
+}
+
+.subsectionbody > div:first-child {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    width: 1080px;
+}
+
+.pagiation {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.awardstrip {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    width: 1080px;
+}
+
+.awardIMG {
+    width: 300px;
+height: 173px;
+border-radius: 10px;
+border: 0.2px solid rgba(0, 0, 0, 0.50);
+object-fit: cover;
+}
+
+.awardContent {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+width: 100%;
+}
+
+.awardContentSubheadings {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+}
+
+.awardSubheadings {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+}
+
+.awardPosition {
+    color: #000;
+font-size: 90px;
+font-style: normal;
+font-weight: 900;
+line-height: 90px;
+}
+
+.awardSubheading {
+    display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+}
+
+.awardSubheading > div:first-child > h5 {
+    font-weight: 600;
+}
