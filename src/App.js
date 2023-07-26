@@ -7,6 +7,7 @@ import Experience from "./components/experience/Experience";
 import Header from "./components/header/Header";
 import Navbar from "./components/navbar/Navbar";
 import Projects from "./components/projects/Projects";
+import Recommendations from "./components/recommendations/Recommendations";
 import Skills from "./components/skills/Skills";
 
 // h1 22
@@ -29,6 +30,7 @@ function App() {
             <Experience />
             <Awards />
             <Certifications />
+            <Recommendations />
         </div>
     );
 }
