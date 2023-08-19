@@ -2,6 +2,7 @@ import "./App.css";
 import Aboutme from "./components/aboutme/Aboutme";
 import Awards from "./components/awards/Awards";
 import Certifications from "./components/certifications/Certifications";
+import Contact from "./components/contact/Contact";
 import Education from "./components/education/Education";
 import Experience from "./components/experience/Experience";
 import Header from "./components/header/Header";
@@ -31,6 +32,7 @@ function App() {
             <Awards />
             <Certifications />
             <Recommendations />
+            <Contact />
         </div>
     );
 }
