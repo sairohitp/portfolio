@@ -3,9 +3,9 @@
     border-bottom: 1px solid #e6e6e6;
     display: flex;
     align-items: center;
-  }
-  
-  #sectiontitle {
+}
+
+#sectiontitle {
     transform: rotate(-90deg);
     font-size: 50px;
     font-style: normal;
@@ -14,7 +14,7 @@
     position: absolute;
     right: 1025px;
     top: 40%;
-  }
+}
 
 .sectionbody {
     margin: 0px auto;
@@ -58,15 +58,16 @@
     object-fit: cover;
 }
 
-.card>h5, .card>div>div:first-child>h5 {
+.card>h5,
+.card>div>div:first-child>h5 {
     font-weight: 600;
 }
 
 .certficaionSubtitle {
     display: flex;
-justify-content: space-between;
-align-items: flex-start;
-align-self: stretch;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
 }
 
 #projectgrid {

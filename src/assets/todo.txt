@@ -1,0 +1,4 @@
+license.md
+readme.md
+
+format all documents pre-commit
