@@ -1,31 +1,33 @@
 import React from "react";
 import RecommendationsCSS from "./Recommendations.module.css";
 
+import HH from "../../assets/recommendations/howardhamlin.jpeg";
+
 const Recommendations = () => {
     return (
         <section id={RecommendationsCSS.parentsection}>
             <div className={RecommendationsCSS.sectionbody}>
                 <div id={RecommendationsCSS.sectiontitle}>
-                    <span>Recommendations</span>
+                    <span>recommendations</span>
                 </div>
 
-                <div className={RecommendationsCSS.subsectionbody}>
-                    {/* left arrow */}
-
-                    <div></div>
-
-                    {/* main subbody */}
-
-                    <div>
-                        <div>
-                          <img></img>
+                <div id={RecommendationsCSS.recommenbod}>
+                    <div id={RecommendationsCSS.recommenbodProfile}>
+                        <div id={RecommendationsCSS.recommenbodIMGholder}>
+                            <img src={HH} alt="HH" />
                         </div>
 
-                        <div>
+                        <div id={RecommendationsCSS.recommenbodProfileTitles}>
                             <h5>
                                 <b>Mr. Madhu Samala</b>
                             </h5>
                             <h5>Founder, TrainingMug</h5>
+                        </div>
+                    </div>
+
+                    <div id={RecommendationsCSS.recommenbodRecommen}>
+                        <div className={RecommendationsCSS.recommenArrs}>
+                            <span class="material-symbols-outlined">west</span>
                         </div>
 
                         <div>
@@ -38,7 +40,8 @@ const Recommendations = () => {
                                 translating concepts into visually captivating
                                 creations. He consistently exceeds expectations
                                 and delivers exceptional results.
-                                <br /><br />
+                                <br />
+                                <br />
                                 In conclusion, I wholeheartedly recommend Sai
                                 Rohit for any design-related position or
                                 project. His exceptional skills, creativity,
@@ -49,21 +52,20 @@ const Recommendations = () => {
                                 design.
                             </p>
                         </div>
-
-                        <div>
-                            <a>
-                                <h5>Source</h5>
-                            </a>
-                        </div>
-
-                        <div>
-                            <h5>01/10</h5>
+                        <div className={RecommendationsCSS.recommenArrs}>
+                            <span class="material-symbols-outlined">east</span>
                         </div>
                     </div>
 
-                    {/* right arrow */}
+                    <div>
+                        <a>
+                            <h5>Source</h5>
+                        </a>
+                    </div>
 
-                    <div></div>
+                    <div id={RecommendationsCSS.recommenbodPagiatior}>
+                        <h5>01/10</h5>
+                    </div>
                 </div>
             </div>
         </section>
