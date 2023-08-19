@@ -12,7 +12,7 @@
     font-weight: 900;
     line-height: 50px;
     position: absolute;
-    right: 840px;
+    right: 820px;
     top: 40%;
 }
 
@@ -63,7 +63,7 @@ padding: 20px;
 justify-content: center;
 align-items: center;
 gap: 10px;
-border-radius: 10px;
+border-radius: 12px;
 border: 0.2px solid rgba(0, 0, 0, 0.50);
 background: #F4F4F4;
 }
@@ -77,6 +77,13 @@ gap: 10px;
 border-radius: 20px;
 border: 0.2px solid rgba(0, 0, 0, 0.50);
 background: #F4F4F4;
+}
+
+#recommen {
+    display: inline-flex;
+flex-direction: column;
+align-items: center;
+gap: 60px;
 }
 
 #recommenbod {
@@ -108,4 +115,10 @@ background: #F4F4F4;
   'wght' 700,
   'GRAD' 0,
   'opsz' 46
+}
+
+#recommenbodSrc {
+    display: flex;
+align-items: flex-end;
+gap: 7px;
 }

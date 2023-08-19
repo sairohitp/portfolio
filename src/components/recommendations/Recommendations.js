@@ -11,7 +11,8 @@ const Recommendations = () => {
                     <span>recommendations</span>
                 </div>
 
-                <div id={RecommendationsCSS.recommenbod}>
+                <div id={RecommendationsCSS.recommen}>
+                   <div id={RecommendationsCSS.recommenbod}>
                     <div id={RecommendationsCSS.recommenbodProfile}>
                         <div id={RecommendationsCSS.recommenbodIMGholder}>
                             <img src={HH} alt="HH" />
@@ -57,10 +58,16 @@ const Recommendations = () => {
                         </div>
                     </div>
 
-                    <div>
-                        <a>
-                            <h5>Source</h5>
-                        </a>
+                    <a href="google.com">
+                        <div id={RecommendationsCSS.recommenbodSrc}>
+                            <h5>
+                                <u>Source</u>
+                            </h5>
+                            <span class="material-symbols-outlined">
+                                open_in_new
+                            </span>
+                        </div>
+                    </a>
                     </div>
 
                     <div id={RecommendationsCSS.recommenbodPagiatior}>
