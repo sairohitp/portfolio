@@ -20,34 +20,34 @@ const Contact = () => {
 
                     <div id={ContactCSS.contactBody}>
                         <div className={ContactCSS.contactChildField}>
-                          <input type = "text" placeholder = "Name"/>
+                            <input type="text" placeholder="Name" />
                         </div>
                         <div className={ContactCSS.contactChildField}>
-                          <input type = "text" placeholder = "Your Email"/>
+                            <input type="text" placeholder="Your Email" />
                         </div>
                         <div className={ContactCSS.contactChildField}>
-                          <input type = "text" placeholder = "Subject"/>
+                            <input type="text" placeholder="Subject" />
                         </div>
-                        <div className={ContactCSS.contactChildField}>
-                          <input type = "text" placeholder = "Message"/>
+                        <div className={ContactCSS.contactChildFieldMessage}>
+                            <input type="text" placeholder="Message" />
                         </div>
                         <div id={ContactCSS.contactSubmitCTAs}>
-                          <div className = {ContactCSS.contactFieldButt}>
-                            <button>
-                              <h6>Reset</h6>
-                            </button>
-                            <span className="material-icon-symbols">
-                              refresh
-                            </span>
-                          </div>
-                          <div className = {ContactCSS.contactFieldButt}>
-                            <button>
-                              <h6>Submit</h6>
-                            </button>
-                            <span className="material-icon-symbols">
-                              send
-                            </span>
-                          </div>
+                            <div className={ContactCSS.contactFieldButt}>
+                                <button>
+                                    <h6>Reset</h6>
+                                <span className="material-symbols-outlined">
+                                    refresh
+                                </span>
+                                </button>
+                            </div>
+                            <div className={ContactCSS.contactFieldButt}>
+                                <button>
+                                    <h6>Submit</h6>
+                                <span class="material-symbols-outlined">
+                                    send
+                                </span>
+                                </button>
+                            </div>
                         </div>
                     </div>
 
