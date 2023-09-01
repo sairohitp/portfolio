@@ -1,4 +1,6 @@
-license.md
-readme.md
+license
+readme
+codeofconduct
+contributions
 
 format all documents pre-commit

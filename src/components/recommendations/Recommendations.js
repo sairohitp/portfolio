@@ -78,7 +78,7 @@ const Recommendations = () => {
                     </div>
 
                     <div id={RecommendationsCSS.recommenbodPagiatior}>
-                        <h5>01/10</h5>
+                        <h5>01 / 10</h5>
                     </div>
                 </div>
             </div>

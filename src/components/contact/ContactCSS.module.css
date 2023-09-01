@@ -1,0 +1,36 @@
+#contactBody {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 10px;
+    border: 0.2px solid rgba(0, 0, 0, 0.50);
+    background: #F4F4F4;
+}
+
+.contactChildField input {
+    width: 560px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    border: 0.2px solid rgba(0, 0, 0, 0.50);
+    background: #FFF;
+}
+
+#contactSubmitCTAs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.contactFieldButt button{
+    display: flex;
+padding: 8px 15px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 7px;
+background: #D4D4D4;
+}
