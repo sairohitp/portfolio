@@ -23,7 +23,7 @@ function App() {
     return (
         <div>
             <Navbar />
-            <Header />
+            {/* <Header /> */}
             <Aboutme />
             <Education />
             <Skills />
