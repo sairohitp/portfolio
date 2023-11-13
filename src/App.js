@@ -22,6 +22,10 @@ import Skills from "./components/skills/Skills";
 function App() {
     return (
         <div>
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/books" element={<BookList />} />
+            </Routes>
             <Navbar />
             {/* <Header /> */}
             <Aboutme />
