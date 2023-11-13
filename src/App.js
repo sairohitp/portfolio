@@ -10,6 +10,7 @@ import Navbar from "./components/navbar/Navbar";
 import Projects from "./components/projects/Projects";
 import Recommendations from "./components/recommendations/Recommendations";
 import Skills from "./components/skills/Skills";
+import { Route, Routes } from "react-router-dom"
 
 // h1 22
 // h2 20
@@ -26,7 +27,6 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/books" element={<BookList />} />
             </Routes>
-            <Navbar />
             {/* <Header /> */}
             <Aboutme />
             <Education />
