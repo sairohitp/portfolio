@@ -1,16 +1,8 @@
 import "./App.css";
-import Aboutme from "./components/aboutme/Aboutme";
-import Awards from "./components/awards/Awards";
-import Certifications from "./components/certifications/Certifications";
-import Contact from "./components/contact/Contact";
-import Education from "./components/education/Education";
-import Experience from "./components/experience/Experience";
-import Header from "./components/header/Header";
-import Navbar from "./components/navbar/Navbar";
-import Projects from "./components/projects/Projects";
-import Recommendations from "./components/recommendations/Recommendations";
-import Skills from "./components/skills/Skills";
+
 import { Route, Routes } from "react-router-dom"
+import Home from "./pages/Home/Home";
+import Experience
 
 // h1 22
 // h2 20
@@ -25,7 +17,7 @@ function App() {
         <div>
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/books" element={<BookList />} />
+                <Route path="/experience" element={<Experience />} />
             </Routes>
             {/* <Header /> */}
             <Aboutme />
