@@ -2,7 +2,7 @@ import "./App.css";
 
 import { Route, Routes } from "react-router-dom"
 import Home from "./pages/Home/Home";
-import Experience
+import Experience from "./pages/Experience/Experience"
 
 // h1 22
 // h2 20
@@ -19,7 +19,7 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/experience" element={<Experience />} />
             </Routes>
-            {/* <Header /> */}
+{/*             
             <Aboutme />
             <Education />
             <Skills />
@@ -28,7 +28,7 @@ function App() {
             <Awards />
             <Certifications />
             <Recommendations />
-            <Contact />
+            <Contact /> */}
         </div>
     );
 }
