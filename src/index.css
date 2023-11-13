@@ -24,7 +24,9 @@ html {
 
 .subbody {
   margin: 0px auto;
-  width: 1080px;
+  width: 1220px;
+  padding: 0px 20px;
+  border-left: 1px solid rgba(0,0,0,0.2);
 }
 
 h1 {
@@ -99,5 +101,5 @@ hr {
 }
 
 .navIcon {
-  font-size: 16px;
+  font-size: 18px;
 }
