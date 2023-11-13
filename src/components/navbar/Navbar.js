@@ -4,7 +4,9 @@ import NavbarCSS from "./Navbar.module.css";
 const Navbar = () => {
   return (
     <div id={NavbarCSS.supernav}>
+      
       <div className="subbody">
+
         <nav className={NavbarCSS.flex}>
           <div>
             <p>
@@ -28,14 +30,19 @@ const Navbar = () => {
           </div>
 
           <div>
+
             <div>
               <span class="material-symbols-outlined navIcon">language</span>
             </div>
+
             <div>
               <span class="material-symbols-outlined navIcon">contrast</span>
             </div>
+
           </div>
+
         </nav>
+        
       </div>
     </div>
   );
