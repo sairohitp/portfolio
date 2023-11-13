@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "gitAutoCommit",
+        "type": "shell",
+        "command": "/bin/bash",
+        "args": [
+          "-c",
+          "git add . && git commit -m 'commit'"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        }
+      }
+    ]
+  }
+  
