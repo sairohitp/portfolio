@@ -10,3 +10,9 @@
   padding: 25px 0px;
   border-bottom: 1px solid #e6e6e6;
 }
+
+.flex > div:last-child {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
