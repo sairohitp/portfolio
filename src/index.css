@@ -54,7 +54,7 @@ h6 {
 }
 
 p {
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.5;
   margin: 0px;
 }
@@ -96,4 +96,8 @@ hr {
   border: none;
   width: 100%;
   margin: 10px 0px;
+}
+
+.navIcon {
+  font-size: 16px;
 }
