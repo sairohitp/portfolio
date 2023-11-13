@@ -8,24 +8,24 @@ const Navbar = () => {
         <nav className = {NavbarCSS.flex}>
           
             <div>
-              <h3>SAI ROHIT</h3>
+              <p><b>Hello, I’m Sai Rohit</b></p>
+            </div>
+            
+            <div className = {NavbarCSS.flex}>
+              <a href =""><p>Experience</p></a>
+              <a href =""><p>Projects</p></a>
+              <a href =""><p>Education</p></a>
+              <a href =""><p>Achievements</p></a>
             </div>
 
-            <div className = {NavbarCSS.flex}>
-              <div className = {NavbarCSS.flex}>
-                <a href =""><p>about</p></a>
-                <a href =""><p>education</p></a>
-                <a href =""><p>skills</p></a>
-                <a href =""><p>projects</p></a>
-                <a href =""><p>experience</p></a>
-                <a href =""><p>awards</p></a>
-                <a href =""><p>certifications</p></a>
-                <a href =""><p>recommendations</p></a>
-                <a href =""><p>contact</p></a>
-              </div>
-              <div>
-                icon
-              </div>
+            <div>
+              <span class="material-symbols-outlined">
+                language
+              </span>
+
+              <span class="material-symbols-outlined">
+              contrast
+              </span>
             </div>
 
         </nav>
