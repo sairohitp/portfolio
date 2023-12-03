@@ -3,6 +3,9 @@ import "./App.css";
 import { Route, Routes } from "react-router-dom"
 import Home from "./pages/Home/Home";
 import Experience from "./pages/Experience/Experience"
+import Projects from "./pages/Projects/Projects"
+import Education from "./pages/Education/Education"
+import Achievements from "./pages/Achievements/Achievements"
 
 // h1 22
 // h2 20
