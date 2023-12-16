@@ -1,13 +1,15 @@
 import React from "react";
 import Navbar from "../../components/navbar/Navbar";
 import Footer from "../../components/footer/Footer";
+import HomeContent from "./HomeContent";
 
 const Home = () => {
   return (
     <>
       <Navbar />
-      <div className="subbody"></div>
+      <HomeContent/>
       <Footer />
+      <div className="subbody"></div>
     </>
   );
 };

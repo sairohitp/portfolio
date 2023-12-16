@@ -33,10 +33,11 @@ html {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 1220px;
-  padding: 20px;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  height: 100vh;
-  z-index: 1;
+  padding: 0px 20px;
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  height: 100%;
+  z-index: 1 !important;
 }
 
 h1 {
@@ -49,18 +50,22 @@ h3 {
 }
 
 h4 {
+  font-size: 14px;
   margin: 0px;
+  font-weight: normal;
+  line-height: 1.5;
 }
 
 h5 {
   font-size: 14px;
   margin: 0px;
   font-weight: normal;
+  line-height: 1;
 }
 
 h6 {
   font-size: 12px;
-  line-height: 1;
+  line-height: 1.5;
   font-weight: normal;
   margin: 0px;
 }
