@@ -1,5 +1,5 @@
 #supernav {
-  padding: 25px 0px;
+  padding: 20px 0px;
   border-top: 1px solid #e6e6e6;
   position: absolute;
   bottom: 0;
@@ -7,9 +7,9 @@
 }
 
 .flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    gap: 40px;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 40px;
+}
