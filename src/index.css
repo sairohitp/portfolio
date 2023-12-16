@@ -65,11 +65,16 @@ a {
 }
 
 .material-symbols-outlined {
+  font-size: 18px;
   font-variation-settings:
   'FILL' 0,
   'wght' 400,
   'GRAD' 0,
   'opsz' 48
+}
+
+.symbols {
+  font-size: 18px;
 }
 
 .filled {
