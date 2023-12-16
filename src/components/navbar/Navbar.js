@@ -1,11 +1,12 @@
 import React from "react";
 import NavbarCSS from "./Navbar.module.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <div id={NavbarCSS.supernav}>
       
-      <div className="subbody">
+      <div className="internalSubbody">
 
         <nav className={NavbarCSS.flex}>
           <div>
@@ -15,9 +16,9 @@ const Navbar = () => {
           </div>
 
           <div className={NavbarCSS.flex}>
-            <a href="">
+            <Link to = "/experience">
               <p>Experience</p>
-            </a>
+            </Link>
             <a href="">
               <p>Projects</p>
             </a>

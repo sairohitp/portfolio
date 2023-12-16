@@ -8,14 +8,12 @@ import { FaGithub } from "react-icons/fa6";
 const Footer = () => {
   return (
     <div id={FooterCSS.supernav}>
-      <div className="subbody">
         <nav className={FooterCSS.flex}>
-          <span class="material-symbols-outlined">article</span>
-          <span class="material-symbols-outlined">mail</span>
-          <span class="symbols"><FaLinkedinIn /></span>
-          <span class="symbols"><FaGithub /></span>
+          <span className="material-symbols-outlined">article</span>
+          <span className="material-symbols-outlined">mail</span>
+          <span className="symbols"><FaLinkedinIn /></span>
+          <span className="symbols"><FaGithub /></span>
         </nav>
-      </div>
     </div>
   );
 };
