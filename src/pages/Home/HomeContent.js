@@ -9,7 +9,7 @@ const HomeContent = () => {
             {/* text */}
             <div className={HomeContentCSS.homeContentText}>
                 <div>
-                    <h4>I’m a pre–final year CSE student at SRM Institute of Science and Technology, Kattankulathur – <br/>Chennai, India</h4>
+                    <h5>I’m a pre–final year CSE student at SRM Institute of Science and Technology, Kattankulathur – <br/>Chennai, India</h5>
                 </div>
                 <div>
                     <p>

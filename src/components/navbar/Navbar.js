@@ -10,23 +10,23 @@ const Navbar = () => {
 
         <nav className={NavbarCSS.flex}>
           <div>
-            <p>
+            <h6>
               <b>Hello, I’m Sai Rohit</b>
-            </p>
+            </h6>
           </div>
 
           <div className={NavbarCSS.flex}>
             <Link to = "/experience">
-              <p>Experience</p>
+              <h6>Experience</h6>
             </Link>
             <a href="">
-              <p>Projects</p>
+              <h6>Projects</h6>
             </a>
             <a href="">
-              <p>Education</p>
+              <h6>Education</h6>
             </a>
             <a href="">
-              <p>Achievements</p>
+              <h6>Achievements</h6>
             </a>
           </div>
 
