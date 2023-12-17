@@ -6,32 +6,29 @@ const Navbar = () => {
   return (
     <div id={NavbarCSS.supernav}>
       
-      <div className="internalSubbody">
-
-        <nav className={NavbarCSS.flex}>
-          <div>
-            <h6>
-              <b>Hello, I’m Sai Rohit</b>
-            </h6>
-          </div>
+        <nav>
+          <Link to="/">
+            <div>
+              <h6 id = {NavbarCSS.siteTitle}>Hello, I’m Sai Rohit</h6>
+            </div>
+          </Link>
 
           <div className={NavbarCSS.flex}>
-            <Link to = "/experience">
+            <Link to="/experience">
               <h6>Experience</h6>
             </Link>
-            <a href="">
+            <Link to="/experience">
               <h6>Projects</h6>
-            </a>
-            <a href="">
+            </Link>
+            <Link to="/experience">
               <h6>Education</h6>
-            </a>
-            <a href="">
+            </Link>
+            <Link to="/experience">
               <h6>Achievements</h6>
-            </a>
+            </Link>
           </div>
 
           <div>
-
             <div>
               <span class="material-symbols-outlined navIcon">language</span>
             </div>
@@ -39,12 +36,9 @@ const Navbar = () => {
             <div>
               <span class="material-symbols-outlined navIcon">contrast</span>
             </div>
-
           </div>
-
         </nav>
-        
-      </div>
+      
     </div>
   );
 };

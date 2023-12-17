@@ -1,3 +1,27 @@
+#supernav {
+  position: relative;
+  padding: 20px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+nav {
+  margin: 0px auto;
+  width: 1220px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  gap: 25px;
+}
+
+nav h6 {
+  font-weight: 700;
+}
+
+#siteTitle {
+  color: #f00;
+}
+
 .flex {
   display: flex;
   justify-content: space-between;
@@ -6,14 +30,7 @@
   gap: 25px;
 }
 
-#supernav {
-  position: relative;
-  padding: 20px 0px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  z-index: 10;
-}
-
-.flex > div:last-child {
+nav > div:last-child {
   display: flex;
   align-items: center;
   gap: 40px;
