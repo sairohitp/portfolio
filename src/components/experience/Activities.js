@@ -16,7 +16,7 @@ const Activities = (props) => {
 
                     <div className={ExperienceCSS.stripInnerActivityContent}>
                         <div>
-                            <h5>{props.activityTitle}</h5>
+                            <h6>{props.activityTitle}</h6>
                         </div>
                         <div>
                             <p>{props.activityDescription}</p>

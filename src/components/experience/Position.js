@@ -12,21 +12,21 @@ const Position = (props) => {
                 <div className={ExperienceCSS.stripContentInnerLeft}>
                     <div className={ExperienceCSS.stripInnerContentSubHeading}>
                         <div>
-                            <h4 className={ExperienceCSS.positionTitle}>
+                            <h6 className={ExperienceCSS.positionTitle}>
                                 {props.position}
-                            </h4>
+                            </h6>
                         </div>
                         <div>
-                            <h4>{props.positionDateRange}</h4>
+                            <h6>{props.positionDateRange}</h6>
                         </div>
                     </div>
 
                     <div className={ExperienceCSS.stripInnerContentSubHeading}>
                         <div>
-                            <h4>{props.positionDescription}</h4>
+                            <h6>{props.positionDescription}</h6>
                         </div>
                         <div>
-                            <h4>{props.positionDuration}</h4>
+                            <h6>{props.positionDuration}</h6>
                         </div>
                     </div>
                 </div>
@@ -46,11 +46,11 @@ const Position = (props) => {
             {/* activities */}
 
             <div className={ExperienceCSS.stripInnerActivityBoundingBox}>
-                <h5>
+                <h6>
                     <span className={ExperienceCSS.subsubsubtitle}>
                         Activities & Records:
                     </span>
-                </h5>
+                </h6>
             {props.activities}
             </div>
             
@@ -59,12 +59,12 @@ const Position = (props) => {
             {/* skills */}
 
             <div>
-                <h5>
+                <h6>
                     <span className={ExperienceCSS.subsubsubtitle}>
                         Skills:
                     </span>{" "}
                     {props.positionSkills}
-                </h5>
+                </h6>
             </div>
 
         </div>
