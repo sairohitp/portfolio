@@ -10,10 +10,10 @@ import Achievements from "./pages/Achievements/Achievements"
 // h1 22
 // h2 20
 // h3 18
-// h4 14, lineheight: 21
-// p 12, lineheight: 18
-// h5 14, lineheight: 14
-// h6 12, lineheight: 18
+// h4 14, lineheight: 1
+// h5 14, lineheight: 1.5
+// h6 12, lineheight: 1
+// p 12, lineheight: 1.5
 
 function App() {
     return (

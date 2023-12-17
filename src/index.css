@@ -15,6 +15,7 @@ code {
 
 html {
   width: 100vw;
+  background-color: #F5F5F5;
 }
 
 * {
@@ -65,7 +66,7 @@ h5 {
 
 h6 {
   font-size: 12px;
-  line-height: 1.5;
+  line-height: 1;
   font-weight: normal;
   margin: 0px;
 }
