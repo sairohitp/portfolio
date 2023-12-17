@@ -47,14 +47,14 @@ h3 {
 }
 
 h4 {
-  font-size: 14px;
+  font-size: 13px;
   line-height: 1;
   margin: 0px;
   font-weight: normal;
 }
 
 h5 {
-  font-size: 14px;
+  font-size: 13px;
   line-height: 1.5;
   margin: 0px;
   font-weight: normal;
@@ -90,6 +90,7 @@ a {
 
 .symbols {
   font-size: 18px;
+  height: 18px;
 }
 
 .filled {
@@ -115,7 +116,7 @@ hr {
   background-color: #e6e6e6;
   border: none;
   width: 100%;
-  margin: 10px 0px;
+  margin: 0px;
 }
 
 .navIcon {

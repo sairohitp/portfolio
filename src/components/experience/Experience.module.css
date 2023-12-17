@@ -1,184 +1,166 @@
 #parentsection {
-    padding: 50px 0px;
-    border-bottom: 1px solid #e6e6e6;
-    display: flex;
-    align-items: center;
-  }
-  
-  #sectiontitle {
-    transform: rotate(-90deg);
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 50px;
-    position: absolute;
-    right: 1065px;
-    top: 220px;
-  }
+  position: absolute;
 
-.sectionbody {
-    margin: 0px auto;
-    position: relative;
-}
-
-.subsectionbody {
-    display: flex;
-    flex-direction: column;
-    gap: 60px;
-    align-items: center;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 1220px;
+  height: 650px;
+  overflow-y: scroll;
+  padding: 20px;
+  z-index: 10;
 }
 
 #subnavParent {
-    padding: 5px;
-    border-radius: 100px;
-    background: #F4F4F4;
-    border: 0.2px solid rgba(0, 0, 0, 0.50);
-    width: fit-content;
+  padding: 5px;
+  border-radius: 100px;
+  background: #f4f4f4;
+  border: 0.2px solid rgba(0, 0, 0, 0.5);
+  width: fit-content;
 }
 
 #subnav {
-    display: flex;
-    align-items: flex-start;
+  display: flex;
+  align-items: flex-start;
 }
 
-#subnav>div {
-    padding: 8px 10px;
-    border-radius: 100px;
+#subnav > div {
+  padding: 8px 10px;
+  border-radius: 100px;
 }
 
-#subnav>div:first-child {
-    padding: 8px 10px;
-    border-radius: 100px;
-    background: #E0E0E0;
+#subnav > div:first-child {
+  padding: 8px 10px;
+  border-radius: 100px;
+  background: #e0e0e0;
 }
-
 
 .strip {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    align-items: flex-start;
-    width: 1080px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  width: 100%;
 }
 
 .stripChildContent {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    align-items: flex-start;
-    width: 1025px;
-    margin-left: 55px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: flex-start;
+  width: 100%;
+  margin-left: 55px;
 }
 
 .title {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    width: 1080px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
 }
 
 .titleRightInnerContent {
-    display: flex;
-    align-items: center;
-    gap: 15px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }
 
 .titleLeftInnerContent {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .titleLeftInnerContent > div > h3 {
-    font-weight: 700;
+  font-weight: 700;
 }
 
-.subsubsubtitle, .titleLeftInnerContent > div > h5 {
-    font-weight: 600;
+.subsubsubtitle,
+.titleLeftInnerContent > div > h5 {
+  font-weight: 600;
 }
 
 .stripContent {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    align-items: flex-start;
-    width: 1025px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  width: 100%;
 }
 
 .stripTextContent {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    align-items: flex-start;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-start;
+  width: 100%;
 }
 
 .stripContentInnerLeft {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    align-items: flex-start;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  width: 100%;
 }
 
 .stripInnerContentSubHeading {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 .positionTitle {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 #sectionBodyContent {
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
 }
 
 .img {
-    width: 40px;
-    height: 40px;
-    border-radius: 5px;
-    border: 0.2px solid rgba(0, 0, 0, 0.50);
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  border: 0.2px solid rgba(0, 0, 0, 0.5);
 }
 
 .stripInnerActivityBoundingBox {
-    display: flex;
-flex-direction: column;
-gap: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .stripInnerActivityIMG {
-    width: 141.667px;
-height: 75px;
-border-radius: 8px;
-background: #D9D9D9;
+  width: 141.667px;
+  height: 75px;
+  border-radius: 8px;
+  background: #d9d9d9;
 }
 
 .stripInnerActivityStrip {
-    display: flex;
-    align-items: flex-start;
-    gap: 15px;
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
 }
 
 .stripInnerActivityContent {
-    display: flex;
-flex-direction: column;
-align-items: flex-start;
-gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
 }
 
 .stripInnerActivityContent > div > h5 {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .positionListBox {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }

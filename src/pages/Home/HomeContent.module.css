@@ -8,14 +8,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 120px;
+  gap: 100px;
   z-index: 10;
 }
 
 img {
-  width: 300px;
-  height: 300px;
-  border-radius: 18px;
+  width: 280px;
+  height: 280px;
+  border-radius: 15px;
   border: 1px solid rgba(0, 0, 0, 0.2);
   object-fit: cover;
 }
@@ -24,7 +24,7 @@ img {
   max-width: 700px;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 30px;
 }
 
 .homeContent > div:first-child {
@@ -60,7 +60,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 40px;
+  gap: 30px;
 }
 
 .skillBox h4 {
