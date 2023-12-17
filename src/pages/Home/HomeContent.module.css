@@ -1,19 +1,17 @@
 .homeContent {
-  position: relative;
-  width: 1220px;
-  /* height: 100vh; */
-  margin: 0 auto;
-
-  display: flex;
-  flex-direction: column;
-
-  justify-content: center;
-  align-items: center;
-
-  gap: 140px;
-
-  z-index: 10;
-}
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    z-index: 10;
+  }
+    
 
 img {
   width: 300px;
@@ -56,4 +54,17 @@ img {
 .gridItemTitle > h6 {
   padding: 10px 0px;
   font-weight: 700;
+}
+
+.skillBox {
+    width: 100%;
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 40px;
+}
+
+.skillBox h4 {
+    color: #f00;
+    font-weight: 700;
 }

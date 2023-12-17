@@ -32,6 +32,13 @@ const HomeContent = () => {
                 <img src = {me}></img>
             </div>
         </div>
+        <div className={HomeContentCSS.skillBox}>
+<div>
+    <h4>
+        Skills
+    </h4>
+</div>
+        
         <div className={HomeContentCSS.gridContainer}>
             {/* skills grid */}
 
@@ -82,6 +89,7 @@ const HomeContent = () => {
 </div>
 
         </div>
+    </div>
     </div>
   )
 }
