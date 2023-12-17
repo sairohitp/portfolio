@@ -17,16 +17,16 @@ const Position = (props) => {
                             </h4>
                         </div>
                         <div>
-                            <h5>{props.positionDateRange}</h5>
+                            <h4>{props.positionDateRange}</h4>
                         </div>
                     </div>
 
                     <div className={ExperienceCSS.stripInnerContentSubHeading}>
                         <div>
-                            <h5>{props.positionDescription}</h5>
+                            <h4>{props.positionDescription}</h4>
                         </div>
                         <div>
-                            <h5>{props.positionDuration}</h5>
+                            <h4>{props.positionDuration}</h4>
                         </div>
                     </div>
                 </div>

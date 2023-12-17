@@ -47,7 +47,7 @@
   flex-direction: column;
   gap: 40px;
   align-items: flex-start;
-  width: 100%;
+  width: 95.5%;
   margin-left: 55px;
 }
 
@@ -71,13 +71,13 @@
   width: 100%;
 }
 
-.titleLeftInnerContent > div > h3 {
+.titleLeftInnerContent > div > h4 {
   font-weight: 700;
 }
 
 .subsubsubtitle,
-.titleLeftInnerContent > div > h5 {
-  font-weight: 600;
+.titleLeftInnerContent > div > h4 {
+  font-weight: 700;
 }
 
 .stripContent {
@@ -112,7 +112,7 @@
 }
 
 .positionTitle {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 #sectionBodyContent {
@@ -156,7 +156,7 @@
 }
 
 .stripInnerActivityContent > div > h5 {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .positionListBox {
