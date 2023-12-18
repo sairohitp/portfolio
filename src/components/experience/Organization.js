@@ -18,10 +18,10 @@ const Organization = (props) => {
 
                 <div className={ExperienceCSS.titleLeftInnerContent}>
                     <div>
-                        <h4>{props.organizationName}</h4>
+                        <h3>{props.organizationName}</h3>
                     </div>
                     <div>
-                        <h4>{props.organizationDuration}</h4>
+                        <h3>{props.organizationDuration}</h3>
                     </div>
                 </div>
             </div>

@@ -9,7 +9,7 @@ import Achievements from "./pages/Achievements/Achievements"
 
 // h1 22
 // h2 20
-// h3 18
+// h3 14, lineheight: 1
 // h4 13, lineheight: 1
 // h5 13, lineheight: 1.5
 // h6 12, lineheight: 1
