@@ -2,7 +2,7 @@ import React from 'react'
 
 import Navbar from '../../components/navbar/Navbar'
 import Subnav from '../../components/navbar/Subnav'
-import ExperienceContent from '../Experience/ExperienceContent'
+import ProjectsContent from './ProjectsContent'
 import Footer from '../../components/footer/Footer'
 
 const Projects = () => {
@@ -12,12 +12,14 @@ const Projects = () => {
 
     <Subnav
       subnavLinks={[
-        { text: "All", route: "/experience" },
-        { text: "Corporate", route: "/corporate" },
-        { text: "Scholastic", route: "/scholastic" },
-        { text: "Entrepreneurial", route: "/entrepreneurial" },
+        { text: "All", route: "/projects" },
+        { text: "Web", route: "/webprojects" },
+        { text: "App", route: "/appprojects" },
+        { text: "Design", route: "/designprojects" },
       ]}
     />
+
+    <ProjectsContent />
 
     
     <Footer />
