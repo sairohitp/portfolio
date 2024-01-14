@@ -11,223 +11,42 @@ const Projects = () => {
 
                     <div id = {ProjectsCSS.projectgrid}>
 
+                        
+
                         <div className={ProjectsCSS.card}>
                             <img src = {calculator}></img>
-                            <h5>Calculator</h5>
-                            <div className={ProjectsCSS.plainskillrow}>
-                                <div>
-                                    <h6>OOPS</h6>
-                                </div>
-                                <div>
-                                    <h6>DSA</h6>
-                                </div>
-                                <div>
-                                    <h6>OS</h6>
-                                </div>
-                                <div>
-                                    <h6>CN</h6>
-                                </div>
-                                <div>
-                                    <h6>DBMS</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={ProjectsCSS.card}>
-                            <img src = {calculator}></img>
-                            <h5>Calculator</h5>
-                            <div className={ProjectsCSS.plainskillrow}>
-                                <div>
-                                    <h6>OOPS</h6>
-                                </div>
-                                <div>
-                                    <h6>DSA</h6>
-                                </div>
-                                <div>
-                                    <h6>OS</h6>
-                                </div>
-                                <div>
-                                    <h6>CN</h6>
-                                </div>
-                                <div>
-                                    <h6>DBMS</h6>
-                                </div>
-                            </div>
                         </div>
 
                         <div className={ProjectsCSS.card}>
                             <img src = {calculator}></img>
-                            <h5>Calculator</h5>
-                            <div className={ProjectsCSS.plainskillrow}>
-                                <div>
-                                    <h6>OOPS</h6>
-                                </div>
-                                <div>
-                                    <h6>DSA</h6>
-                                </div>
-                                <div>
-                                    <h6>OS</h6>
-                                </div>
-                                <div>
-                                    <h6>CN</h6>
-                                </div>
-                                <div>
-                                    <h6>DBMS</h6>
-                                </div>
-                            </div>
                         </div>
 
                         <div className={ProjectsCSS.card}>
                             <img src = {calculator}></img>
-                            <h5>Calculator</h5>
-                            <div className={ProjectsCSS.plainskillrow}>
-                                <div>
-                                    <h6>OOPS</h6>
-                                </div>
-                                <div>
-                                    <h6>DSA</h6>
-                                </div>
-                                <div>
-                                    <h6>OS</h6>
-                                </div>
-                                <div>
-                                    <h6>CN</h6>
-                                </div>
-                                <div>
-                                    <h6>DBMS</h6>
-                                </div>
-                            </div>
                         </div>
 
                         <div className={ProjectsCSS.card}>
                             <img src = {calculator}></img>
-                            <h5>Calculator</h5>
-                            <div className={ProjectsCSS.plainskillrow}>
-                                <div>
-                                    <h6>OOPS</h6>
-                                </div>
-                                <div>
-                                    <h6>DSA</h6>
-                                </div>
-                                <div>
-                                    <h6>OS</h6>
-                                </div>
-                                <div>
-                                    <h6>CN</h6>
-                                </div>
-                                <div>
-                                    <h6>DBMS</h6>
-                                </div>
-                            </div>
                         </div>
 
                         <div className={ProjectsCSS.card}>
                             <img src = {calculator}></img>
-                            <h5>Calculator</h5>
-                            <div className={ProjectsCSS.plainskillrow}>
-                                <div>
-                                    <h6>OOPS</h6>
-                                </div>
-                                <div>
-                                    <h6>DSA</h6>
-                                </div>
-                                <div>
-                                    <h6>OS</h6>
-                                </div>
-                                <div>
-                                    <h6>CN</h6>
-                                </div>
-                                <div>
-                                    <h6>DBMS</h6>
-                                </div>
-                            </div>
                         </div>
 
                         <div className={ProjectsCSS.card}>
                             <img src = {calculator}></img>
-                            <h5>Calculator</h5>
-                            <div className={ProjectsCSS.plainskillrow}>
-                                <div>
-                                    <h6>OOPS</h6>
-                                </div>
-                                <div>
-                                    <h6>DSA</h6>
-                                </div>
-                                <div>
-                                    <h6>OS</h6>
-                                </div>
-                                <div>
-                                    <h6>CN</h6>
-                                </div>
-                                <div>
-                                    <h6>DBMS</h6>
-                                </div>
-                            </div>
                         </div>
 
                         <div className={ProjectsCSS.card}>
                             <img src = {calculator}></img>
-                            <h5>Calculator</h5>
-                            <div className={ProjectsCSS.plainskillrow}>
-                                <div>
-                                    <h6>OOPS</h6>
-                                </div>
-                                <div>
-                                    <h6>DSA</h6>
-                                </div>
-                                <div>
-                                    <h6>OS</h6>
-                                </div>
-                                <div>
-                                    <h6>CN</h6>
-                                </div>
-                                <div>
-                                    <h6>DBMS</h6>
-                                </div>
-                            </div>
                         </div>
 
                         <div className={ProjectsCSS.card}>
                             <img src = {calculator}></img>
-                            <h5>Calculator</h5>
-                            <div className={ProjectsCSS.plainskillrow}>
-                                <div>
-                                    <h6>OOPS</h6>
-                                </div>
-                                <div>
-                                    <h6>DSA</h6>
-                                </div>
-                                <div>
-                                    <h6>OS</h6>
-                                </div>
-                                <div>
-                                    <h6>CN</h6>
-                                </div>
-                                <div>
-                                    <h6>DBMS</h6>
-                                </div>
-                            </div>
                         </div>
 
                         <div className={ProjectsCSS.card}>
                             <img src = {calculator}></img>
-                            <h5>Calculator</h5>
-                            <div className={ProjectsCSS.plainskillrow}>
-                                <div>
-                                    <h6>OOPS</h6>
-                                </div>
-                                <div>
-                                    <h6>DSA</h6>
-                                </div>
-                                <div>
-                                    <h6>OS</h6>
-                                </div>
-                                <div>
-                                    <h6>CN</h6>
-                                </div>
-                                <div>
-                                    <h6>DBMS</h6>
-                                </div>
-                            </div>
                         </div>
 
                     

@@ -6,11 +6,10 @@ import narayana from "../../assets/education/narayana.png"
 
 const Education = () => {
     return (
-        <section>
+        <section id = {EducationCSS.parentsection}>
+            
             <div className = {EducationCSS.sectionbody}>
-                <div id= {EducationCSS.sectiontitle}>
-                    <span>education</span>
-                </div>
+            
 
                 <div className = {EducationCSS.strip}>
                     <div className = {EducationCSS.innerstrip}>

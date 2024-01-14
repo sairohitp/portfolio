@@ -1,29 +1,29 @@
-section {
-    padding: 100px 0px;
-    border-bottom: 1px solid #e6e6e6;
-    display: flex;
-    align-items: center;
-  }
-  
-  #sectiontitle {
-    transform: rotate(-90deg);
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 50px;
-    position: absolute;
-    right: 1080px;
-    top: 45%;
-  }
-  
-  .sectionbody {
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    width: 1080px;
-    margin: 0px auto;
-    position: relative;
-  }
+/* Hide scrollbar for Chrome, Safari and Opera */
+#parentsection::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+#parentsection {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+#parentsection {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 1220px;
+  height: calc(100% - 200px); /* 100% of the viewport height - height of the footer */
+  overflow-y: scroll;
+  padding: 20px;
+  z-index: 10;
+}
+
+.sectionbody {
+  margin: 0px auto;
+  position: relative;
+}
   
   #img {
     height: 70px;
@@ -41,6 +41,10 @@ section {
     display: flex;
     align-items: flex-start;
     gap: 40px;
+  }
+
+  .innerstrip > div > img {
+    border: none;
   }
   
   .innerstriptext {

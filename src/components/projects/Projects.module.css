@@ -24,7 +24,7 @@
     margin: 0px auto;
     position: relative;
 }
-
+/* 
 .plainskillrow {
     display: flex;
     align-items: flex-start;
@@ -36,7 +36,7 @@
     border-radius: 100px;
     border: 0.2px solid rgba(0, 0, 0, 0.50);
     background: #ffffff;
-}
+} */
 
 .card {
     display: flex;
@@ -48,10 +48,10 @@
 
 .card > img {
     width: 100%;
-    height: 200px;
-    border-radius: 10px;
-    border: 0.2px solid rgba(0, 0, 0, 0.50);
-    background: #F4F4F4;
+    height: 250px;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: #E0E0E0;;
 }
 
 .card > h5 {
@@ -59,9 +59,8 @@
 }
 
 #projectgrid {
-    column-gap: 20px;
-    row-gap: 40px;
+    gap: 30px;
     display: inline-grid;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: repeat(3, auto);
     justify-content: space-between;
 }
