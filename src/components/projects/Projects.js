@@ -11,8 +11,6 @@ const Projects = () => {
 
                     <div id = {ProjectsCSS.projectgrid}>
 
-                        
-
                         <div className={ProjectsCSS.card}>
                             <img src = {calculator}></img>
                         </div>
@@ -52,8 +50,6 @@ const Projects = () => {
                     
                     </div>
                 </div>
-
-            
 
         </section>
     );

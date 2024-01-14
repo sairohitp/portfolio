@@ -32,8 +32,6 @@ const Awards = () => {
 
                         <hr />
 
-                        
-
 <Award
                             awardIMG={concepto}
                             awardRank = "#3"
