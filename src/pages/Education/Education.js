@@ -13,9 +13,8 @@ const Education = () => {
       <Subnav
         subnavLinks={[
           { text: "All", route: "/experience" },
-          { text: "Corporate", route: "/corporate" },
-          { text: "Scholastic", route: "/scholastic" },
-          { text: "Entrepreneurial", route: "/entrepreneurial" },
+          { text: "Undergraduate", route: "/undergraduate" },
+          { text: "School", route: "/school" }
         ]}
       />
 

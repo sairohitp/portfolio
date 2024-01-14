@@ -23,18 +23,28 @@
 .sectionbody {
   margin: 0px auto;
   position: relative;
+
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
   
   #img {
-    height: 70px;
-    width: 70px;
+    border: none;
+    height: 60px;
+    width: 60px;
   }
   
   .strip {
-    width: 1080px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+  }
+
+  .strip > div:last-child {
+    display: block;
+    flex-shrink: 0;
   }
   
   .innerstrip {
@@ -43,16 +53,31 @@
     gap: 40px;
   }
 
-  .innerstrip > div > img {
-    border: none;
-  }
-  
   .innerstriptext {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 30px;
   }
   
-  .strip > div > h5, .strip > div > div >h5 {
-    font-weight: normal;
+  .innerstriptext > div:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60px;
   }
+    
+
+  .innerstriptext > div:first-child > h3 {
+    font-weight: 700;
+  }
+
+  .innerstriptext > div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .innerstriptext > div:nth-child(2) > h6 {
+    font-weight: 700;
+  }
+  
