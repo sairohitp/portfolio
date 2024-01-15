@@ -6,6 +6,8 @@ import Experience from "./pages/Experience/Experience"
 import Projects from "./pages/Projects/Projects"
 import Education from "./pages/Education/Education"
 import Achievements from "./pages/Achievements/Achievements"
+import Certifications from "./pages/Certifications/Certifications";
+import Recommendations from "./pages/Recommendations/Recommendations";
 
 // h1 22
 // h2 20
@@ -24,6 +26,9 @@ function App() {
                 <Route path="/projects" element={<Projects />} />
                 <Route path="/education" element={<Education />} />
                 <Route path="/achievements" element={<Achievements />} />
+                
+                <Route path="/certifications" element={<Certifications />} />
+                <Route path="/recommendations" element={<Recommendations />} />
                 {/* <Route path="/*" element={<404 />} /> */}
             </Routes>
 {/*             

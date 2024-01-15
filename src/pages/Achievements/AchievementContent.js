@@ -10,15 +10,26 @@ const AchievementContent = () => {
   return (
         <section id={AwardsCSS.parentsection}>
             <div className={AwardsCSS.sectionbody}>
-                <div id={AwardsCSS.sectiontitle}>
-                    <span>awards</span>
-                </div>
 
                 <div className={AwardsCSS.subsectionbody}>
-                    <div>
+
                         <Award
                             awardIMG={hackatoge}
-                            awardRank = "#3"
+                            awardTitle="iVOLUTION '23"
+                            awardDate="03/2023"
+                            awardSubtitle1Left="Design Sprint"
+                            awardSubtitle1Right="Issued by Swift Coding Club"
+                            awardSubtitle2Left="SRM Institute of Science & Technology"
+                            awardSubtitle2Right="Chennai, India"
+                            awardDescriptionLine1='• Our team "Wireshark" secured 3rd place in a 24hr long hackathon, conducted at IIT Madras research park.'
+                            awardDescriptionLine2="• We designed and developed a social networking mobile application, with complete functionality."
+                            awardDescriptionLine3="• 4 major reviews were conducted throughout the competition, and we had passed the various stages."
+                        />
+
+                        <hr />
+
+                        <Award
+                            awardIMG={hackatoge}
                             awardTitle="Hackatoge"
                             awardDate="03/2023"
                             awardSubtitle1Left="24 Hour Hackathon"
@@ -34,7 +45,6 @@ const AchievementContent = () => {
 
                         <Award
                             awardIMG={concepto}
-                            awardRank = "#3"
                             awardTitle="Concepto 3.0"
                             awardDate="03/2023"
                             awardSubtitle1Left="Ideathon"
@@ -50,34 +60,18 @@ const AchievementContent = () => {
 
                         <Award
                             awardIMG={hackatoge}
-                            awardRank = "<1000"
                             awardTitle="Merit semester(s)"
-                            awardDate="05/2021 – 05/2023"
+                            awardDate="03/2023"
                             awardSubtitle1Left="Scholarship"
                             awardSubtitle1Right="Issued by SRM IST"
-                            
                             awardDescriptionLine1='• Our team "Wireshark" secured 3rd place in a 24hr long hackathon, conducted at IIT Madras research park.'
                             awardDescriptionLine2="• We designed and developed a social networking mobile application, with complete functionality."
                             awardDescriptionLine3="• 4 major reviews were conducted throughout the competition, and we had passed the various stages."
                         />
 
-                        
-                    </div>
 
-                    <div className={AwardsCSS.pagiation}>
-                        <div className="material-symbols-outlined filled">
-                            circle
-                        </div>
-                        <div className="material-symbols-outlined unfilled">
-                            circle
-                        </div>
-                        <div className="material-symbols-outlined unfilled">
-                            circle
-                        </div>
-                        <div className="material-symbols-outlined unfilled">
-                            circle
-                        </div>
-                    </div>
+
+                    
                 </div>
             </div>
         </section>
