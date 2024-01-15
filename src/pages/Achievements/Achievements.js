@@ -4,6 +4,7 @@ import Navbar from '../../components/navbar/Navbar'
 import Subnav from '../../components/navbar/Subnav'
 
 import Footer from '../../components/footer/Footer'
+import AchievementContent from './AchievementContent'
 
 const Achievements = () => {
   return (
@@ -18,7 +19,7 @@ const Achievements = () => {
         ]}
       />
 
-
+      <AchievementContent/>
       <Footer />
       <div className="subbody"></div>
   </>

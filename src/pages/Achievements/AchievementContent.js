@@ -1,13 +1,13 @@
-import React from "react";
-import Award from "./Award";
+import React from 'react'
+import Award from "../../components/awards/Award";
 
-import AwardsCSS from "./Awards.module.css";
+import AwardsCSS from "../../components/awards/Awards.module.css";
 
 import hackatoge from "../../assets/awards/hackatoge.jpg";
 import concepto from "../../assets/awards/concepto.jpeg";
 
-const Awards = () => {
-    return (
+const AchievementContent = () => {
+  return (
         <section id={AwardsCSS.parentsection}>
             <div className={AwardsCSS.sectionbody}>
                 <div id={AwardsCSS.sectiontitle}>
@@ -32,7 +32,7 @@ const Awards = () => {
 
                         <hr />
 
-<Award
+                        <Award
                             awardIMG={concepto}
                             awardRank = "#3"
                             awardTitle="Concepto 3.0"
@@ -81,7 +81,7 @@ const Awards = () => {
                 </div>
             </div>
         </section>
-    );
-};
+  )
+}
 
-export default Awards;
+export default AchievementContent
